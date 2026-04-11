@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Write a recursive method in Java which, given real value x and a positive integer n, returns
+the value of xn.
+*/
+
 import java.util.Scanner;
 public class A3Q8 {
     public static int power(int x,int n){

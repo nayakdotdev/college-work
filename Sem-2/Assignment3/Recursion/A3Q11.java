@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Write a recursive method in Java to return the greatest common divisor(gcd) of two integers
+m and n, given that in general, gcd(m,n)=gcd(n, m mod n).
+*/
+
 import java.util.Scanner;
 public class A3Q11 {
     public static int gcd(int m,int n){

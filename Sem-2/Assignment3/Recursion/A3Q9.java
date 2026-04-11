@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Write a recursive method in Java which, given an integer n, print it with its digits reversed.
+For example , given 4735, it prints 5374.
+*/
+
 import java.util.Scanner;
 public class A3Q9 {
     public static void reverse(int n){

@@ -1,3 +1,10 @@
+/*
+Problem Statement:
+Write a java program to print an array of different type using a single Generic method. The
+signature of printArray method is given below.
+        public static < E > void printArray( E[] inputArray)
+*/
+
 import java.util.Scanner;
 public class A3Q5{
     public static <E> void printArray(E[] inputArray){

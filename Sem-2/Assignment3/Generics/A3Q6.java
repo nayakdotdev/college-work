@@ -1,3 +1,10 @@
+/*
+Problem Statement:
+Write a java method using Generics to count the occurrence of an element in an array of any
+type. The signature of count method is given below.
+        public static <T> int count(T[] array, T item)
+*/
+
 import java.util.Scanner;
 public class A3Q6 {
     public static <T> int count(T[] array,T item){

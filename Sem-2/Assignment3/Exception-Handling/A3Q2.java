@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Assign your favorite colors in an array. Identify 2 exceptions that may be generated & write
+exceptional handler in Java.
+*/
+
 import java.util.Scanner;
 public class A3Q2 {
     public static void main(String[] args) {

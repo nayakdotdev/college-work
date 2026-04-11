@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Write a Java program to read your lucky number from keyboard. Treat –ve no. as
+NumberFormatException. Write appropriate Exceptional handler.
+*/
+
 import java.util.Scanner;
 public class A3Q1 {
     public static void checkLucky(int n){

@@ -1,3 +1,8 @@
+/*
+Problem Statement:
+Write a recursive method in Java that computes the factorial of a given integer.
+*/
+
 import java.util.Scanner;
 public class A3Q7 {
     public static int fact(int n){

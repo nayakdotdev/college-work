@@ -1,3 +1,8 @@
+/*
+Problem Statement:
+Write a recursive method in Java to search an element of an array using binary search.
+*/
+
 import java.util.Scanner;
 public class A3Q12 {
     public static int binarySearch(int[] a,int k){

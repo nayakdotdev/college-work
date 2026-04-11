@@ -1,3 +1,10 @@
+/*
+Problem Statement:
+The sequence of numbers 1, 1, 2, 3, 5, 8, 13 etc are called Fibonacci numbers,
+each is the sum of the preceding two. Write a recursive method in Java which, given n,
+returns the nth Fibonacci number.
+*/
+
 import java.util.Scanner;
 public class A3Q10 {
     public static int fibo(int n){

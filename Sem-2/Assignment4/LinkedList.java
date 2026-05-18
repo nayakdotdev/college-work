@@ -1,3 +1,51 @@
+/*
+Problem Statement:
+1. Write a menu driven Java Program using class, methods and reference variables, to construct
+a singly linked list consisting of the following information in each node: student regd_no
+(int), mark secured in a subject (float).
+The class definition should be as follows.
+class Node
+{
+protected int regd_no;
+protected float mark;
+protected Node next;
+}
+The prototype of the create method should be as follows.
+public static void create(Node start)
+Define the methods for each of the following operations to be supported by the above
+linked list are:
+  a) The insertion operation
+    i. At the beginning of the list
+Method Prototype: public static Node InsBeg(Node start)
+    ii. At the end of the list
+Method Prototype: public static Node InsEnd(Node start)
+    iii. At any position in the list
+Method Prototype: public static Node InsAny(Node start)
+  b) The deletion operation
+    i. From the beginning of the list
+Method Prototype: public static Node DelBeg(Node start)
+    ii. From the end of the list
+Method Prototype: public static Node DelEnd(Node start)
+    iii. From any position in the list
+Method Prototype: public static Node DelAny(Node start)
+    iv. Deleting a node based on student regd_no. If the specified node is not present
+in the list an error message should be displayed. Both the option should be
+demonstrated.
+  c) Search a node based on student regd_no and update the mark of the student. If the
+specified node is not present in the list an error message should be displayed.
+Method Prototype: public static void search(Node start)
+  d) Sort the nodes of the linked list according to the mark secured by the student from
+higher to lower.
+Method Prototype: public static void sort(Node start)
+  e) Count the number of nodes present in the linked list
+Method Prototype: public static int count(Node start)
+  f) Reverse the linked list
+Method Prototype: public static Node reverse(Node start)
+  g) Displaying all the nodes in the list
+The prototype of the display function should be as follows.
+public static void display(Node start)
+*/
+
 import java.util.Scanner;
 class Node{
     protected int regd_no;

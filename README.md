@@ -9,10 +9,16 @@ It includes **DSA in Java**, upcoming **Python coursework**, and other academic 
 
 ```
 college-work/
- ├── Sem-1/
- ├── Sem-2/
- ├── Sem-3/
- └── ...
+└── 1stYear/
+    ├── Sem1-ICP/
+    │   ├── Assignment1/
+    │   ├── Assignment2/
+    │   └── ...
+    │
+    └── Sem2-DSA/
+        ├── Assignment1/
+        ├── Assignment2/
+        └── ...
 ```
 
 ## ⚙️ Tech Stack

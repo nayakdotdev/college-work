@@ -1,16 +1,18 @@
-# Compiled class file
+# Java
 *.class
 
-# Log file
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Java archives
 *.jar
 *.war
 *.nar
@@ -19,6 +21,10 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Java/BlueJ
+*.ctxt
+.mtj.tmp/
+
+# JVM crash logs
 hs_err_pid*
 replay_pid*

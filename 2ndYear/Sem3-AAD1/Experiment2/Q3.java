@@ -1,3 +1,6 @@
+// Write a program that takes an integer in decimal form as input and print its
+// hexadecimal representation. Implement the solution using a recursive approach.
+
 class Q3{
     void decToHex(int n){
         if(n==0)

@@ -1,3 +1,9 @@
+// - Write Recursive program to perform Binary search over a list of integers. The
+// List may be sorted in ascending or descending order. Say the given ITEM is
+// found or not.
+// - Write Recursive program to perform Linear search over a list of integers. Say
+// the given ITEM is found or not.
+
 class Q2{
     boolean binarySearch(int a[],int l,int h,int k){
         if(l>h)

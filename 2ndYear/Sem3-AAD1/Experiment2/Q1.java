@@ -1,3 +1,8 @@
+// Write the recursive code of the following problems
+// - Sum of even digits of a given number (Input: 43721 Output: 4+2=6)
+// - Factorial of a number
+// - Print n terms of Fibonacci sequence in reverse order.
+
 class Q1{
     int sumEven(int n){
         if(n==0)

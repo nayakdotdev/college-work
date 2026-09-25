@@ -1,3 +1,5 @@
+// Sum of n numbers
+
 class Q1{
     int sum(int lb,int ub){
         int s=0;

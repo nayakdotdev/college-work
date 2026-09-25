@@ -1,3 +1,5 @@
+// Linear search
+
 class Q4{
     int linearSearch(int arr[],int lb,int ub,int k){
         for(int i=lb;i<=ub;i++){

@@ -1,3 +1,5 @@
+// Factorial of a number
+
 class Q2 {
     int fact(int n){
         int f=1;

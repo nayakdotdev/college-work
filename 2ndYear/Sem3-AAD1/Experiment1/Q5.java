@@ -1,3 +1,5 @@
+// Binary search
+
 class Q5{
     int binarySearch(int arr[],int lb,int ub,int k){
         boolean asc=arr[lb]<arr[ub];

@@ -1,0 +1,16 @@
+n=int(input("Enter Decimal: "))
+b=bin(n)[2:]
+o=oct(n)[2:]
+h=hex(n)[2:].upper()
+bc=len(b)
+oc=len(o)
+hc=len(h)
+rb=int(b,2)
+ro=int(o,8)
+rh=int(h,16)
+print(f"Binary: {b}, Digits: {bc}")
+print(f"Octal: {o}, Digits: {oc}")
+print(f"Hexadecimal: {h}, Digits: {hc}")
+print(f"From Binary: {rb}")
+print(f"From Octal: {ro}")
+print(f"From Hexadecimal: {rh}")

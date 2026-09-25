@@ -1,3 +1,17 @@
+# Design and implement a Python function named validate password(password)
+# that checks whether a given password meets specific security requirements. The
+# function should validate the password based on the following rules:
+# • The password must contain at least 8 characters.
+# • It must include at least one uppercase letter (A–Z).
+# • It must include at least one lowercase letter (a–z).
+# • It must include at least one digit (0–9).
+# • It must include at least one special character from the set !@#$% and no whitespaces.
+# The function should return:
+# • True if the password satisfies all the above conditions.
+# • False, along with a list of specific error messages, if one or more rules are violated.
+# Input: A string representing the password entered by the user (e.g., “Pass@123”).
+# Output: Display whether the password is valid or invalid, and if invalid, list the violated rules.
+
 def validate_password(ps):
     err=[]
     if len(ps)<8:

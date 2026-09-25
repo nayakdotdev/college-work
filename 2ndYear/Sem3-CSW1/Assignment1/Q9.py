@@ -1,3 +1,15 @@
+# Develop a Python program that processes a paragraph of text entered by the user.
+# The program should perform the following tasks:
+# • Convert the entire paragraph into title case (each word starts with a capital
+# letter).
+# • Remove extra spaces between words using the split() and join() methods.
+# • Count and display the occurrences of each vowel (A, E, I, O, U) using their character codes.
+# Input: A paragraph entered by the user (e.g., “ this is an example paragraph ”).
+# Output: Display the cleaned and title-cased paragraph, followed by the count of each
+# vowel.
+# For example: Processed Text: This Is An Example Paragraph
+# Vowel Counts  A: 3, E: 2, I: 1, O: 0, U: 0
+
 para=input("Enter paragraph: ")
 para=" ".join(para.split())
 para=para.title()

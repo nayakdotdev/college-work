@@ -9,7 +9,7 @@
 # For example: world—python—hello
 
 sen=input("Enter Sentence: ")
-sep=input("Enter Sequence: ")
+sep=input("Enter Seperator: ")
 words=sen.split()
 valid=[]
 for i in words:

@@ -1,5 +1,7 @@
-// Rotate an array by K Positions: Give an array rotate its elements by k positions.
-// Example: If [1,2,3,4,5,6] gets rotated by 2 positions then the array [3,4,5,6,1,2].
+/* 
+Rotate an array by K Positions: Give an array rotate its elements by k positions.
+Example: If [1,2,3,4,5,6] gets rotated by 2 positions then the array [3,4,5,6,1,2].
+*/
 
 class Q7{
     void rotate(int arr[],int k){

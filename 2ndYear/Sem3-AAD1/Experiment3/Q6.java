@@ -1,7 +1,9 @@
-// Check reverse: Given an array of integers, find if reversing a sub-array makes the
-// array sorted.
-// Input: A= [1, 2, 6, 5, 4, 7]
-// Output: True Explanation: Reversing sub array [6, 5, 4] the whole array gets sorted.
+/* 
+Check reverse: Given an array of integers, find if reversing a sub-array makes the
+array sorted.
+Input: A= [1, 2, 6, 5, 4, 7]
+Output: True Explanation: Reversing sub array [6, 5, 4] the whole array gets sorted.
+*/
 
 class Q6{
     boolean checkReverse(int arr[]){

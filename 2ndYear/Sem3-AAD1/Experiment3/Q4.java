@@ -1,12 +1,14 @@
-// Array reduction Problem: Given an array of positive elements. You need to
-// perform reduction operation. In each reduction operation smallest positive element
-// value is picked and all the elements are subtracted by that value. You need to print
-// the number of non-zero elements left after each reduction process.
-// Input: [5, 1, 1, 1, 2, 3, 5]
-// Output: After Iteration 1 : 4 corresponds to [4, 1, 2, 4] after subtraction
-// After Iteration 2 :3 corresponds to [3, 1, 3] after subtraction
-// After Iteration 3 :2 corresponds to [2, 2] after subtraction
-// After Iteration 4 :0 corresponds to [0] after subtraction
+/*
+Array reduction Problem: Given an array of positive elements. You need to
+perform reduction operation. In each reduction operation smallest positive element
+value is picked and all the elements are subtracted by that value. You need to print
+the number of non-zero elements left after each reduction process.
+Input: [5, 1, 1, 1, 2, 3, 5]
+Output: After Iteration 1 : 4 corresponds to [4, 1, 2, 4] after subtraction
+After Iteration 2 :3 corresponds to [3, 1, 3] after subtraction
+After Iteration 3 :2 corresponds to [2, 2] after subtraction
+After Iteration 4 :0 corresponds to [0] after subtraction
+ */
 
 class Q4{
     void arrayReduce(int arr[]){

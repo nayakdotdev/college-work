@@ -1,29 +1,26 @@
 # College Work
 
 This repository contains my **B.Tech CSE semester-wise coding assignments** from **ITER, SOA University**.
-It includes **DSA in Java**, upcoming **Python coursework**, and other academic programs.
+It includes **Java and Python coursework**, DSA, and other academic programs.
 
 ---
 
 ## 📂 Structure
 
-```
+```text
 college-work/
-└── 1stYear/
-    ├── Sem1-ICP/
-    │   ├── Assignment1/
-    │   ├── Assignment2/
-    │   └── ...
-    │
-    └── Sem2-DSA/
-        ├── Assignment1/
-        ├── Assignment2/
-        └── ...
+├── 1stYear/
+│   ├── Sem1-ICP/
+│   └── Sem2-DSA/
+│
+└── 2ndYear/
+    ├── Sem3-AAD1/
+    └── Sem3-CSW1/
 ```
 
 ## ⚙️ Tech Stack
 
-* Language: **Java**
+* Languages: **Java, Python**
 * Tools: **VS Code**
 
 ---
